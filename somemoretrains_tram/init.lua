@@ -1,4 +1,4 @@
-local S = attrans
+local S = core.get_translator("somemoretrains_tram")
 
 -- Gets called when an entity is made - will set the right livery that was painted
 local function tram_set_textures(self, data)
